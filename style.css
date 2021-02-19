@@ -1,0 +1,145 @@
+body {
+  background-image: url("images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-color: hsl(229, 57%, 11%);
+  background-position: top 350px left;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+
+.main {
+  display: grid;
+}
+
+.logosection {
+  height: 200px;
+  width: 400px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px 75px 10px 10px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.logoimage {
+  width: 60%;
+  margin-top: -25px;
+}
+
+.logocontent {
+  padding: 30px;
+  margin: 30px;
+}
+
+.squarebox {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 5px;
+  margin: 20px 20px 20px 0;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.squarebox>img {
+  margin: 15px;
+}
+
+.datasegment {
+  height: 150px;
+  width: 700px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: -100px;
+  margin-top: 300px;
+}
+
+.datausagearea {
+  height: 15px;
+  width: 600px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+}
+
+.gradientarea {
+  height: 11px;
+  width: 500px;
+  border-radius: 13px;
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border: 2px solid hsl(229, 57%, 11%);
+}
+
+.whitecircle {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  left: 489px;
+  border: 1px solid hsl(335, 100%, 65%);
+}
+
+.commentboxouter {
+  background-color: #fff;
+  border-radius: 10px 10px 0 10px;
+  height: 75px;
+  width: 150px;
+  position: relative;
+  left: 500px;
+  bottom: 125px;
+  color: hsl(229, 7%, 55%);
+}
+
+.commentbox {
+  width: 0;
+  height: 0;
+  border-top: 25px solid #fff;
+  border-left: 25px solid transparent;
+  margin-left: 125px;
+  position: relative;
+  left: 500px;
+  bottom: 125px;
+}
+
+.boldfont {
+  color: hsl(229, 57%, 11%);
+  font-size: 30px;
+  font-weight: 900px;
+}
+
+.commentboxouter>p {
+  margin: 15px;
+  padding-top: 15px;
+}
+
+.datasegment>p {
+  color: hsl(243, 100%, 93%);
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.datasegment>span {
+  color: hsl(243, 100%, 93%);
+}
+
+.ZeroGB {
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+.ThousandGB {
+  position: relative;
+  bottom: 100px;
+  left: 550px;
+}
