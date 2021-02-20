@@ -15,7 +15,7 @@ body {
 
 .logosection {
   height: 200px;
-  width: 400px;
+  width: 350px;
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px 75px 10px 10px;
   grid-column: 1;
